@@ -1,0 +1,83 @@
+body{
+    font-family:sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    color: #56b280;
+    text-decoration: none;
+    font-weight: bold;
+    padding : 0px 5px 0px 5px;
+}
+
+select{
+    padding-left: 10px;
+}
+.section-div{
+    margin-bottom: 30px;
+
+}
+.title-div{
+    display: flex;
+    justify-content: space-between;
+    margin : 5px 0px 5px 0px;
+
+}
+.title-div span {
+    display: flex;
+    height: 35px;
+    padding : 0px 5px 0px 5px;
+    align-self: flex-end;
+}
+.input-div {
+    width: 500px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin : 8px 0px 8px 0px;
+    
+}
+.title-text{
+    font-weight: bold;
+}
+.border-input {
+    height: 100%;
+    flex-grow: 1;
+    padding-left: 5px;
+    margin: 0 5px;
+    border: solid 1px #56b280;
+}
+.dropbox-div{
+    margin: 0 5px;
+    border: solid 1px #56b280;
+}
+
+.back-shipping-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+.button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 35px;
+    background: #56b280;
+    color: white;
+    border-radius: 3px;
+}
+.button-div:hover{
+    opacity: 92%;
+}
+.back{
+    color: #56b280;
+    text-decoration: underline;
+}
+.back:hover{
+    opacity: 85%;
+}

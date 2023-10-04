@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/payment.css">
+    </head>
+    <body>
+        <div class="section-div">
+            <div class="container">
+                <div class="detail">
+                    <span>Contact</span>
+                    <span style="font-weight: bold;">mail@gmail.com</span>
+                </div>
+                <span class="edit">Edit</span>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="detail">
+                    <span>Ship to </span>
+                    <span style="font-weight: bold;">Indus University via Thaltej,near shilaj</span>
+                </div>
+                <span class="edit">Edit</span>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="detail">
+                    <span>Method </span>
+                    <span style="font-weight: bold;">Standard Shipping</span>
+                    <span> - FREE</span>
+                </div>
+
+                <span class="edit">Edit</span>
+            </div>
+        </div>
+        <div style="display: flex;flex-direction: column;">
+            <span style="font-size: 20px;margin-bottom: 25px;">Payment method</span>
+            <div class="section-div">
+                <div style="display: flex;height: 45px; background: rgb(146, 210, 146);align-items: center;">
+                    <img style="margin: 0px 10px 0px 20px;" src="/images/credit_card.png">
+                    <span style="font-size: 18px;">Credit Card</span>
+                </div>
+                <div class="border-container">
+                    <input type="text" placeholder="Card Number">
+                    <img class="icon" src="/images/lock.png">
+                </div>
+                <div class="border-container">
+                    <input type="text" placeholder="Holder Name">
+                    <img class="icon" src="/images/person.png">
+                </div>
+                <div style="display: flex;justify-content: space-between;">
+                    <div width="45%" class="border-container">
+                        <input type="text" placeholder="Expiration (MM/YY)">
+                    </div>
+                    <div width="100%" class="border-container">
+                        <input type="text" placeholder="CVV">
+                        <img style="margin: 5px;" src="/images/info.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="width: 500px;display: flex;flex-direction: column;margin-bottom: 40px;">
+            <span style="font-size: 20px;margin-bottom: 15px;">Tax Information</span>
+            
+            <div class="border-container" style="margin: 10px 0px 10px 0px;">
+                <input type="text" placeholder="VAT number (optional)">
+            </div>
+            <div class="border-container" style="margin: 10px 0px 10px 0px;">
+                <input type="text" placeholder="PEC (optional)">
+            </div>
+        </div>
+        <div style="width: 500px;display: flex;flex-direction: column;margin-bottom: 40px;"> 
+            <span  style="font-size: 20px;margin-bottom: 15px;">Billing Address</span>
+            <div style="display:flex;flex-direction: column; border: solid 1px green;border-radius: 3px;">
+                <div>
+                    <input class="checkbox" type="checkbox">
+                    <span>Same as the shipping address</span>
+                </div>
+                <hr>
+                <div>
+                    <input class="checkbox" type="checkbox">
+                    <span>Use a different address for shipping</span>
+                </div>
+            </div>
+        </div>
+        <div class="back-shipping-div">
+            <span class="back" onclick="top.window.location.href='./cart.html';">Back</span> 
+            <div class="button-div" onclick="location.href='./thankyou.html';">
+                <span>Pay Now</span>
+            </div>
+        </div>
+    </body>
+</html>
