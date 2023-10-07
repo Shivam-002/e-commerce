@@ -1,0 +1,718 @@
+
+@media screen and (max-width: 479px){
+    .f-start .f-row {
+        display: flex;
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .f-start .f-row .f-col {
+        width: 16.66%;
+        padding: 14px 0px;
+    }
+    .f-start .f-row .f-col ul li a {
+        font-size: 16px;
+    }
+    .product-section .p-row .p-col img {
+        width: 200px;
+        justify-items: center;
+        padding-left: 42px;
+        padding-bottom: 10px;
+        position: relative;
+        left: -31px;
+    }
+    .rights {
+        display: flex;
+        padding: 0px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        margin: 0px 0px;
+        
+    }
+    .product-section .p-row .p-col {
+        width: 43%;
+        padding: 15px 15px;
+    }
+
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .rate-contain .r-row {
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rate-contain .r-row .r-col {
+       
+        padding: 9px 0px;
+    }
+    .banner .banner-row .banner-col .banner-contain a {
+       
+        height: 57px;
+        display: flex;
+        width: 198px;
+        
+        position: relative;
+        left: 121px;
+    }
+    .banner .banner-row .banner-col .banner-contain {
+       
+        height: 284px;
+        width: 462px;
+        padding: 57px;
+        border-radius: 40px;
+    }
+    .nevbar .header-start .row-logo ul {
+        display: flex;
+        justify-content: center;
+    }
+    .row-logo ul {
+        display: flex;
+        justify-content: center;
+    }
+    .nevbar .header-start .row-logo ul li {
+       
+        font-size: 17px;
+        
+    }
+    .banner .banner-row .banner-col .banner-contain a {
+        height: 57px;
+        display: flex;
+        width: 190px;
+        position: relative;
+        left: 82px;
+    }
+    .banner .banner-row .banner-col .banner-contain {
+        height: 342px;
+        width: 366px;
+        padding: 57px;
+      
+    }
+    .nevbar .header-start .row-navbar {
+        width: 50%;
+        display: none;
+    }
+    .nevbar .header-start {
+        display: flex;
+        padding: 28.29px 0px;
+        justify-content: center;
+    }
+   .banner .banner-row .banner-col .banner-contain {
+    height: 245px;
+    width: 205px;
+    padding: 57px;
+    }
+    .product-section .p-row .p-col img {
+        width: 200px;
+        justify-items: center;
+        padding-left: 42px;
+        padding-bottom: 10px;
+        position: relative;
+        left: -60px;
+    }
+    .banner .banner-row .banner-col .banner-contain a {
+        height: 56px;
+        display: flex;
+        width: 164px;
+        position: relative;
+        left: 32px;
+    }
+    .banner .banner-row .banner-col .banner-contain h1 {
+        font-weight: bolder;
+        color: #190072;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .banner .banner-row .banner-col .banner-contain p {
+        font-size: 14px;
+        text-align: end;
+    }
+    .rate-contain .r-row .r-col .r-card img {
+        height: 145px;
+        padding-left: 25px;
+    }
+    .product-section .p-row .p-col {
+        width: 39%;
+        padding: 15px 15px;
+    }
+    .product-section .p-row .p-col img {
+        width: 113px;
+        justify-items: center;
+        padding-left: 32px;
+        padding-bottom: 10px;
+        position: relative;
+        left: -17px;
+    }
+
+}
+    
+@media (min-width: 480px) and (max-width: 566px){
+    .f-start .f-row {
+        display: flex;
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .f-start .f-row .f-col {
+        width: 16.66%;
+        padding: 14px 0px;
+    }
+    .f-start .f-row .f-col ul li a {
+        font-size: 16px;
+    }
+    .product-section .p-row .p-col img {
+        width: 200px;
+        justify-items: center;
+        padding-left: 42px;
+        padding-bottom: 10px;
+        position: relative;
+        left: -31px;
+    }
+    .rights {
+        display: flex;
+        padding: 0px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        margin: 0px 0px;
+        
+    }
+    .product-section .p-row .p-col {
+        width: 43%;
+        padding: 15px 15px;
+    }
+
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .rate-contain .r-row {
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rate-contain .r-row .r-col {
+       
+        padding: 9px 0px;
+    }
+    .banner .banner-row .banner-col .banner-contain a {
+       
+        height: 57px;
+        display: flex;
+        width: 198px;
+        
+        position: relative;
+        left: 121px;
+    }
+    .banner .banner-row .banner-col .banner-contain {
+       
+        height: 284px;
+        width: 462px;
+        padding: 57px;
+        border-radius: 40px;
+    }
+    .nevbar .header-start .row-logo ul {
+        display: flex;
+        justify-content: center;
+    }
+    .row-logo ul {
+        display: flex;
+        justify-content: center;
+    }
+    .nevbar .header-start .row-logo ul li {
+       
+        font-size: 17px;
+        
+    }
+    .banner .banner-row .banner-col .banner-contain a {
+        height: 57px;
+        display: flex;
+        width: 190px;
+        position: relative;
+        left: 82px;
+    }
+    .banner .banner-row .banner-col .banner-contain {
+        height: 342px;
+        width: 366px;
+        padding: 57px;
+      
+    }
+    .nevbar .header-start .row-navbar {
+        width: 50%;
+        display: none;
+    }
+    .nevbar .header-start {
+        display: flex;
+        padding: 28.29px 0px;
+        justify-content: center;
+    }
+   
+    
+    
+}
+@media screen and (max-width: 576px){
+    .f-start .f-row .f-col ul li h4 {
+        
+        font-size: 19px;
+        padding-bottom: 15px;
+    }
+    .f-start .f-row .f-col ul li a {
+        
+        font-size: 13px;
+       
+    }
+    .nevbar .header-start .row-logo ul li {
+        font-size: 15px;
+       
+    }
+}
+@media (min-width: 576px) and (max-width: 766px){
+    .container {
+        margin: 0px 0px;
+        
+    }
+    .product-section .p-row .p-col {
+        width: 46%;
+        padding: 15px 15px;
+    }
+
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .rate-contain .r-row {
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rate-contain .r-row .r-col {
+       
+        padding: 9px 0px;
+    }
+    .rights {
+        display: flex;
+        padding: 0px 36px;
+    }
+
+    .nevbar .header-start .row-navbar {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nevbar .header-start .row-navbar ul a li {
+        list-style: none;
+        width: 86px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .nevbar .header-start .row-option ul {
+        
+        justify-content: center;
+    }
+    .banner .banner-row .banner-col .banner-contain a {
+       
+        height: 57px;
+        display: flex;
+        width: 198px;
+        
+        position: relative;
+        left: 121px;
+    }
+    .f-start .f-row {
+        
+        padding: 15px 15px;
+    }
+    .nevbar .header-start .row-logo ul {
+        display: flex;
+        justify-content: center;
+    }
+    .banner .banner-row .banner-col .banner-contain {
+        background-color: aliceblue;
+        background-color: #dd669d7d;
+        height: 284px;
+        width: 462px;
+        padding: 57px;
+        border-radius: 40px;
+    }
+    
+    
+}
+@media (min-width: 767px) and (max-width: 990px){
+    .container {
+        margin: 0px 0px;
+        
+    }
+    .product-section .p-row .p-col {
+        width: 46%;
+        padding: 15px 15px;
+    }
+
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .rate-contain .r-row {
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rate-contain .r-row .r-col {
+       
+        padding: 9px 0px;
+    }
+    .f-start .f-row {
+       
+        padding: 15px 15px;
+    }
+    .f-start {
+        padding-bottom: 0px;
+    }
+    .rights {
+        display: flex;
+        padding: 0px 132px;
+    }
+    .nevbar .header-start {
+        
+        padding: 27.29px 15px;
+    }
+    .banner .banner-row .banner-col .banner-contain {
+        position: relative;
+        left: 14%;
+    }
+    .banner .banner-row .banner-col .banner-contain a {
+        position: relative;
+        left: 32%;
+    }
+    
+
+.all-header h1 {
+    padding-top: 30px;
+}
+#product-area {
+    padding-bottom: 15px;
+}
+.all-header {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.all-header h1 {
+    font-size: 44px;
+    color: #190072;
+    line-height: 50px;
+    padding-top: 30px;
+}
+#rating-section {
+    padding-bottom: 50px;
+    background-color: #1900721d;
+}
+#banner-start {
+    padding-bottom: 15px;
+}
+.product-section .p-row .p-col img {
+  
+    padding-left: 0px;
+   
+    position: relative;
+    left: 26%;
+}
+
+
+}
+@media (min-width: 911px) and (max-width: 1023px) {
+    .rate-contain .r-row {
+        flex-flow:unset;
+    }
+    .product-section .p-row .p-col {
+        width: 47%;
+        padding: 15px 15px;
+    }
+
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        margin: 0px 0px;
+
+    }
+
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .product-section .p-row .p-col {
+        width: 46%;
+        padding: 13px 15px;
+    }
+
+    .nevbar .header-start {
+        display: flex;
+        padding: 28.29px 15px;
+    }
+
+    .banner .banner-row .banner-col .banner-contain a {
+        position: relative;
+        left: 32%;
+    }
+
+    .banner .banner-row .banner-col .banner-contain {
+
+        position: relative;
+        left: 160px;
+    }
+
+    .product-section .p-row .p-col img {
+
+        position: relative;
+        left: 22%;
+    }
+    .f-start {
+        padding-bottom: 0px;
+    }
+    .f-start .f-row {
+        display: flex;
+        padding: 15px 15px;
+    }
+    .rights {
+       
+        padding: 0px 244px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1139px) {
+    .rate-contain .r-row {
+        flex-flow:unset;
+    }
+    .product-section .p-row .p-col {
+        width: 21%;
+        padding: 15px 15px;
+    }
+
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        margin: 0px 2.5px;
+        max-width: 1440px;
+    }
+
+    .banner .banner-row .banner-col .banner-contain {
+        position: relative;
+        left: 34%;
+    }
+
+    .rights {
+        display: flex;
+        padding: 0px 258px;
+    }
+
+    .product-section .p-row .p-col img {
+        position: relative;
+        left: 100px;
+    }
+
+    .nevbar .header-start {
+        display: flex;
+        padding: 28.29px 15px;
+    }
+
+    .f-start .f-row {
+        display: flex;
+        padding-top: 50px;
+        padding: 22px 66px;
+    }
+
+    .f-start {
+        padding-bottom: 0px;
+    }
+
+    #banner-start {
+        padding-bottom: 25px;
+    }
+
+    #product-area {
+        padding-bottom: 25px;
+    }
+
+    .all-header h1 {
+
+        padding-top: 30px;
+    }
+
+    .all-header {
+
+        padding-bottom: 25px;
+    }
+
+}
+
+@media (min-width: 1140px) and (max-width: 1279px) {
+    
+    
+    .rate-contain .r-row {
+        flex-flow:unset;
+    }
+    .product-section .p-row .p-col {
+        width: 22%;
+        padding: 0px 15px;
+    }
+
+    .banner .banner-row .banner-col .banner-contain {
+        position: relative;
+        left: 40%;
+    }
+
+    .container {
+        margin: 0px 28.5px;
+    }
+
+    
+
+    .rights {
+        padding: 0px 288px;
+    }
+
+    .product-section .p-row .p-col img {
+        position: relative;
+        left: -23px;
+    }
+
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: unset;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .rate-contain .r-row {
+        flex-flow:unset;
+    }
+    .container {
+        margin: 0px 96.5px;
+    }
+
+    .rights {
+        padding: 0px 291px;
+    }
+
+    .product-section .p-row .p-col img {
+        position: relative;
+        left: 28px;
+    }
+
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: unset;
+    }
+
+}
+
+@media (min-width: 1440px) and (max-width: 1500px) {
+    .rate-contain .r-row {
+        flex-flow:unset;
+    }
+    .product-section .p-row .p-col {
+        width: 25%;
+        padding: 0px 15px;
+    }
+
+    .rights {
+        padding: 0px 372px;
+    }
+
+    .product-section .p-row .p-col img {
+        position: relative;
+        left: -4px;
+    }
+
+    .product-section .p-row {
+        width: 100%;
+        display: flex;
+        flex-wrap: unset;
+    }
+    .f-start .f-row .f-col ul li a {
+        line-height: 30px;
+        font-size: large;
+        color: black;
+    }
+
+}
