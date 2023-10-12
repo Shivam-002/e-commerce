@@ -716,3 +716,9 @@
     }
 
 }
+@media (min-width: 1023px) and (max-width: 1139px){
+    .product-section .p-row .p-col img {
+        position: relative;
+        left: 0px;
+    }
+}
