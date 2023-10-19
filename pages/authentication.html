@@ -12,7 +12,7 @@
                 <span>Do you have an account? <a href="/pages/home.html">Login</a></span>
             </div>
             <div class="input-div">
-                <input class="border-input" type="text" placeholder="Email or mobile phone number">
+                <input class="border-input" type="number" name="n1" id="n1" placeholder=" mobile phone number">
             </div>
             <div style="display: flex;align-items: center;">
                 <input style="margin-right: 10px;" type="checkbox">
@@ -313,10 +313,11 @@
             </div>
             <div class="back-shipping-div">
                 <span class="back" onclick="top.window.location.href='./cart.html';">Back</span> 
-                <div class="button-div" onclick="location.href='./shipping.html';">
-                    <span>Go to Shipping</span>
+                <!-- <div class="button-div" onclick="location.href='./shipping.html';"> -->
+                    <span><button onclick="validation()" id="result">Go to Shipping</button></span>
                 </div>
             </div>
         </div>
+       <script src="/js/validation.js"></script>     
     </body>
 </html>
