@@ -1,26 +1,66 @@
+<?php
+// Database configuration
+$servername = "your_server_name";
+$username = "your_username";
+$password = "your_password";
+$dbname = "your_database_name";
+
+// Create a database connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Handle form submission
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $contact = $_POST["contact"];
+    $shipTo = $_POST["ship-to"];
+    $standardShipping = isset($_POST["standard-shipping"]) ? 1 : 0;
+
+    // Insert data into the database
+    $sql = "INSERT INTO e_commerce_data (contact, ship_to, standard_shipping) VALUES ('$contact', '$shipTo', '$standardShipping')";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "Data saved successfully!";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+
+// Close the database connection
+$conn->close();
+?>
+
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>E-commerce Contact and Ship Attributes</title>
   <link rel="stylesheet" href="/css/shipping.css">
 </head>
+
 <body>
   <div class="container">
     <div class="attribute-container">
-      <h2>Contact & Ship To</h2>
-      <div class="attribute-content">
-        <div class="input-group">
-          <label for="contact">Contact:</label>
-          <input type="text" id="contact" placeholder="Enter your contact details">
-          <a class="edit-button">Edit</a>
-        </div>
-        <hr width="95%" style="fill:#56b280">
-        <div class="input-group">
-          <label for="ship-to">Ship To:</label>
-          <input type="text" id="ship-to" placeholder="Enter your shipping address">
-          <a class="edit-button">Edit</a>
-        </div>
-      </div>
+      <form method="POST" action="your_php_script.php">
+        <form method="POST" action="your_php_script.php">
+          <h2>Contact & Ship To</h2>
+          <div class="attribute-content">
+            <div class="input-group">
+              <label for="contact">Contact:</label>
+              <input type="text" id="contact" name="contact" placeholder="Enter your contact details">
+              
+              <a class="edit-button">Edit</a>
+            </div>
+            <hr width="95%" style="fill:#56b280">
+            <div class="input-group">
+              <label for="ship-to">Ship To:</label>
+              <input type="text" id="ship-to" name="ship-to" placeholder="Enter your shipping address">
+              <a class="edit-button">Edit</a>
+            </div>
+          </div>
     </div>
 
     <h2>Shipping Method</h2>
@@ -30,13 +70,12 @@
       </label>
     </div>
 
+    </form>
     <div class="buttons">
       <button class="back-button">Back to Details</button>
-      <button class="payment-button"  onclick="location.href='./payment.html'">Go to Payment</button>
+      <button class="payment-button" onclick="location.href='./payment.html'">Go to Payment</button>
     </div>
   </div>
 </body>
+
 </html>
-
-
-
